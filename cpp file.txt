@@ -1,0 +1,20 @@
+
+Python (using Flask framework):
+from flask import Flask, request, redirect, render_template
+
+app = Flask(name)
+
+@app.route("/")
+def index():
+return render_template("index.html")
+
+@app.route("/signup", methods=["POST"])
+def signup():
+username = request.form["username"]
+password = request.form["password"]
+
+# Add code to save username and password to database here
+
+return redirect("/")
+if name == "main":
+app.run(debug=True)

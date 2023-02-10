@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Survey Website</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#signup">Sign Up</a></li>
+			<li><a href="#login">Log In</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="signup">
+			<h2>Sign Up</h2>
+			<form action="">
+				<input type="text" placeholder="Username">
+				<input type="password" placeholder="Password">
+				<button type="submit">Sign Up</button>
+				<p>or sign up with</p>
+				<div class="social-signup">
+					<a href="#" class="google">Google</a>
+					<a href="#" class="facebook">Facebook</a>
+					<a href="#" class="linkedin">LinkedIn</a>
+				</div>
+			</form>
+		</section>
+		<section id="login">
+			<h2>Log In</h2>
+			<form action="">
+				<input type="text" placeholder="Username">
+				<input type="password" placeholder="Password">
+				<button type="submit">Log In</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright &copy; 2023 Survey Website</p>
+	</footer>
+</body>
+</html>
